@@ -27,7 +27,7 @@
     <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="#">Home</a></li>
       <li class="">
-      <li><a href="#">About Us</a></li>
+      <li><a href="AboutUs">About Us</a></li>
       <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
        <ul class="dropdown-menu"> 
         <li><a href="#">Page-1</a></li>

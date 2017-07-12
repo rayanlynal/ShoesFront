@@ -20,7 +20,7 @@ public class CategoryController
 	@Autowired
 	CategoryDAO categoryDAO;
 	
-	@RequestMapping("/Category")
+	@RequestMapping(value="/Category")
 	public String showCategoryPage(Model m)
 	{
 		System.out.println("---Category Page Displaying-----");
@@ -51,8 +51,7 @@ public class CategoryController
 		
 		boolean flag=false;
 		m.addAttribute("flag",flag);
-		
-		System.out.println("---Category Added----");
+				System.out.println("---Category Added----");
 		return "Category";
 	}
 	
