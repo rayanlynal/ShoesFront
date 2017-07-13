@@ -7,7 +7,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MobitelFrontend Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+ 
+ <dependencies>
   
    <dependency>
       <groupId>junit</groupId>
@@ -54,6 +55,7 @@
     </dependency>
     
     <!-- Spring security dependencies -->
+    
     	<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
@@ -77,10 +79,12 @@
 			<artifactId>spring-security-taglibs</artifactId>
 			<version>4.1.2.RELEASE</version>
 		</dependency>
+		
 	<!-- Spring security dependencies end -->
 
   </dependencies>
-  
+ 
+    
   <build>
     <finalName>MobitelFrontend</finalName>
   </build>
